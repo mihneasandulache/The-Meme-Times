@@ -30,8 +30,9 @@ Analyze the provided client profile and curate 5 highly relevant news articles t
 - Return ONLY valid JSON format
 - Include exactly 5 articles
 - Each article summary must be 2-4 sentences
-- Provide working source URLs
+- Provide working source URLs which should be the exact URL from where you extracted the article
 - Include author names when available
+- Use only english even if the article is in any other language
 
 ## Input Format
 
