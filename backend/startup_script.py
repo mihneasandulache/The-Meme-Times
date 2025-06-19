@@ -34,8 +34,6 @@ def check_dependencies():
         "fastapi",
         "uvicorn",
         "pydantic",
-        "google.generativeai",
-        "google.cloud.aiplatform",
         "PIL"
     ]
     
@@ -68,7 +66,7 @@ def main():
     
     # Start the FastAPI server
     import uvicorn
-    from main import app  # Assuming your FastAPI app is in main.py
+    from api import app  # Assuming your FastAPI app is in main.py
     
     print("🌐 Starting server on http://0.0.0.0:8000")
     print("📚 API documentation available at http://0.0.0.0:8000/docs")
@@ -76,7 +74,7 @@ def main():
     uvicorn.run(
         app,
         host="0.0.0.0",
-        port=8000,
+        port=8001,
         reload=True,  # Enable auto-reload during development
         log_level="info"
     )
