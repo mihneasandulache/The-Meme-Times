@@ -46,17 +46,15 @@ Analyze the provided client profile and curate 5 highly relevant news articles t
 
 ## Example Input
 
-```json
+````json
 {
   "age": 15,
   "city": "Bucharest",
   "country": "Romania",
   "interests": ["Gaming", "Movies", "Partying"]
 }
-```
 
 ## Output Format
-
 ```json
 [
   {
@@ -66,7 +64,7 @@ Analyze the provided client profile and curate 5 highly relevant news articles t
     "author_name": "string"
   }
 ]
-```
+````
 
 ## Processing Guidelines
 
@@ -82,3 +80,9 @@ Analyze the provided client profile and curate 5 highly relevant news articles t
 - No additional text or explanation
 - Ensure all URLs are functional
 - Verify article summaries are concise and informative
+
+---
+
+## User Profile
+
+{user_profile}
